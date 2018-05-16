@@ -1,0 +1,7 @@
+d="fedunnazar20122001@gmail.com dimka05023@gmail.com kovalevichstas2@gmail.com "
+for i in $d
+do
+ echo "Запрошуємо вас та ваших дітей на відкритий урок з 3D-друку та Arduino!
+18 травня о 16:00 ми познайомимо дітей з найцікавішими напрямками сучасних технологій!"  | mutt -s "" $i
+done
+
